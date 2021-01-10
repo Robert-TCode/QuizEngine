@@ -1,9 +1,4 @@
-//
-//  FlowTests.swift
-//  QuizGameTests
-//
 //  Created by TCode on 02/01/2021.
-//
 
 import Foundation
 import XCTest

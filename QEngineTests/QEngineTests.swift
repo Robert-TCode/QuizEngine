@@ -1,9 +1,4 @@
-//
-//  QEngineTests.swift
-//  QEngineTests
-//
 //  Created by TCode on 10/01/2021.
-//
 
 import XCTest
 @testable import QEngine
