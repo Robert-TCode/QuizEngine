@@ -10,6 +10,13 @@
 		AA2EA8A425AB381B00A0DCCD /* QEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2EA89A25AB381B00A0DCCD /* QEngine.framework */; };
 		AA2EA8A925AB381B00A0DCCD /* QEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EA8A825AB381B00A0DCCD /* QEngineTests.swift */; };
 		AA2EA8AB25AB381B00A0DCCD /* QEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2EA89D25AB381B00A0DCCD /* QEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA2EA8BA25AB386A00A0DCCD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EA8B625AB386A00A0DCCD /* Game.swift */; };
+		AA2EA8BB25AB386A00A0DCCD /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EA8B725AB386A00A0DCCD /* Flow.swift */; };
+		AA2EA8BC25AB386A00A0DCCD /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EA8B825AB386A00A0DCCD /* Router.swift */; };
+		AA2EA8BD25AB386A00A0DCCD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EA8B925AB386A00A0DCCD /* Result.swift */; };
+		AA2EA8C525AB387A00A0DCCD /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EA8C225AB387900A0DCCD /* GameTests.swift */; };
+		AA2EA8C625AB387A00A0DCCD /* RouterSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EA8C325AB387A00A0DCCD /* RouterSpy.swift */; };
+		AA2EA8C725AB387A00A0DCCD /* FlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2EA8C425AB387A00A0DCCD /* FlowTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		AA2EA8A325AB381B00A0DCCD /* QEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2EA8A825AB381B00A0DCCD /* QEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QEngineTests.swift; sourceTree = "<group>"; };
 		AA2EA8AA25AB381B00A0DCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2EA8B625AB386A00A0DCCD /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		AA2EA8B725AB386A00A0DCCD /* Flow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
+		AA2EA8B825AB386A00A0DCCD /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		AA2EA8B925AB386A00A0DCCD /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		AA2EA8C225AB387900A0DCCD /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		AA2EA8C325AB387A00A0DCCD /* RouterSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterSpy.swift; sourceTree = "<group>"; };
+		AA2EA8C425AB387A00A0DCCD /* FlowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,10 @@
 			children = (
 				AA2EA89D25AB381B00A0DCCD /* QEngine.h */,
 				AA2EA89E25AB381B00A0DCCD /* Info.plist */,
+				AA2EA8B725AB386A00A0DCCD /* Flow.swift */,
+				AA2EA8B625AB386A00A0DCCD /* Game.swift */,
+				AA2EA8B925AB386A00A0DCCD /* Result.swift */,
+				AA2EA8B825AB386A00A0DCCD /* Router.swift */,
 			);
 			path = QEngine;
 			sourceTree = "<group>";
@@ -81,6 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				AA2EA8A825AB381B00A0DCCD /* QEngineTests.swift */,
+				AA2EA8C425AB387A00A0DCCD /* FlowTests.swift */,
+				AA2EA8C225AB387900A0DCCD /* GameTests.swift */,
+				AA2EA8C325AB387A00A0DCCD /* RouterSpy.swift */,
 				AA2EA8AA25AB381B00A0DCCD /* Info.plist */,
 			);
 			path = QEngineTests;
@@ -147,6 +168,7 @@
 				TargetAttributes = {
 					AA2EA89925AB381B00A0DCCD = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 					AA2EA8A225AB381B00A0DCCD = {
 						CreatedOnToolsVersion = 12.0;
@@ -194,6 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2EA8BA25AB386A00A0DCCD /* Game.swift in Sources */,
+				AA2EA8BC25AB386A00A0DCCD /* Router.swift in Sources */,
+				AA2EA8BD25AB386A00A0DCCD /* Result.swift in Sources */,
+				AA2EA8BB25AB386A00A0DCCD /* Flow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2EA8A925AB381B00A0DCCD /* QEngineTests.swift in Sources */,
+				AA2EA8C725AB387A00A0DCCD /* FlowTests.swift in Sources */,
+				AA2EA8C525AB387A00A0DCCD /* GameTests.swift in Sources */,
+				AA2EA8C625AB387A00A0DCCD /* RouterSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +370,7 @@
 		AA2EA8AF25AB381B00A0DCCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 25258ALHUD;
@@ -357,6 +387,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tcode.quizgame.QEngine;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +397,7 @@
 		AA2EA8B025AB381B00A0DCCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 25258ALHUD;
@@ -381,6 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tcode.quizgame.QEngine;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -389,6 +423,7 @@
 		AA2EA8B225AB381B00A0DCCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25258ALHUD;
 				INFOPLIST_FILE = QEngineTests/Info.plist;
@@ -407,6 +442,7 @@
 		AA2EA8B325AB381B00A0DCCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25258ALHUD;
 				INFOPLIST_FILE = QEngineTests/Info.plist;
