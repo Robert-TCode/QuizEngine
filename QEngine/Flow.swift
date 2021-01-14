@@ -38,7 +38,7 @@ class Flow <Question, Answer, R: Router> where R.Question == Question, R.Answer 
             if nextQuestionIndex < questions.count {
                 let nextQuestion =  questions[nextQuestionIndex]
                 router.routeTo(question: nextQuestion,
-                                    answerCallback: nextCallback(from: nextQuestion))
+                               answerCallback: nextCallback(from: nextQuestion))
             } else {
                 router.routeTo(result: result())
             }
